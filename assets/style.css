@@ -119,3 +119,34 @@ body {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
+/* Forçar centralização */
+.mais-projetos {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 40px !important;
+}
+
+/* Forçar estilo de botão */
+.btn-projetos {
+  background: linear-gradient(135deg, #6a4df4, #8a6cff) !important;
+  color: #fff !important;
+  padding: 14px 28px !important;
+  border-radius: 14px !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  border: none !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.18) !important;
+  transition: 0.3s ease !important;
+}
+
+/* Hover */
+.btn-projetos:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25) !important;
+}
+

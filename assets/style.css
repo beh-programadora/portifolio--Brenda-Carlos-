@@ -122,4 +122,31 @@ body {
   color: #fff !important;
   background: #5938e2;
 }
+.mais-projetos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* Botão harmonizado com o estilo do site */
+.btn-final {
+  display: inline-block;
+  color: #6a4df4; /* MESMA cor dos seus links */
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 12px 22px;
+  border: 2px solid #6a4df4;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+/* Hover igual ao estilo dos seus links */
+.btn-final:hover {
+  background: #6a4df4;
+  color: white;
+  transform: translateY(-3px);
+}
 

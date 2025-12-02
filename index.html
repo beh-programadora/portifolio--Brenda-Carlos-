@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Brenda Nicolle Carlos — Portfólio</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="index.html">Brenda Nicolle Carlos </a>
+      <ul class="nav-links">
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="skills.html">Habilidades</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Brenda Nicolle Carlos </h1>
+          <p class="subtitle">Desenvolvedora | Ciência de Dados | Backend & Frontend</p>
+          <p class="short-desc">Transformo ideias em código e entrego soluções limpas e escaláveis.</p>
+          <p class="slogan">“Transformo ideias em código.”</p>
+          <div class="cta-row">
+            <a class="btn" href="projects.html">Meus projetos</a>
+            <a class="btn ghost" href="contact.html">Contato</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/foto beh.JFIF" alt="Foto do desenvolvedor">
+        </div>
+      </div>
+    </section>
+
+    <section class="highlights container">
+      <article>
+        <h3>Profissional</h3>
+        <p>Foco em código limpo, testes e experiência do usuário. Experiência com projetos Open Source e sistemas de gerenciamento.</p>
+      </article>
+      <article>
+        <h3>Responsividade</h3>
+        <p>Design pensado para dispositivos móveis e desktop, com HTML semântico e CSS moderno.</p>
+      </article>
+      <article>
+        <h3>Qualidade</h3>
+        <p>Entrega com documentação mínima e instruções para deploy.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Brenda Nicolle Carlos  — Portfólio profissional</p>
+    </div>
+  </footer>
+
+<script>
+document.getElementById('year').innerText = new Date().getFullYear();
+</script>
+</body>
+</html>

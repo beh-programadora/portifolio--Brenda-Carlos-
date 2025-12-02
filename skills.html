@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Habilidades — Brenda</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="index.html">Brenda Carlos</a>
+      <ul class="nav-links">
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="skills.html" class="active">Habilidades</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="skills">
+
+      <h1>Minhas Habilidades</h1>
+      <p class="skills-subtitle">
+        Competências técnicas que utilizo com mais frequência nos meus projetos.
+      </p>
+
+      <div class="skill">
+        <div class="skill-title"><span>HTML</span><span>95%</span></div>
+        <div class="progress"><div style="width:95%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title"><span>CSS / Responsividade</span><span>90%</span></div>
+        <div class="progress"><div style="width:90%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title"><span>JavaScript</span><span>80%</span></div>
+        <div class="progress"><div style="width:80%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title"><span>Python</span><span>85%</span></div>
+        <div class="progress"><div style="width:85%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title"><span>APIs / Integrações</span><span>75%</span></div>
+        <div class="progress"><div style="width:75%"></div></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-title"><span>Frameworks (Django / Flask)</span><span>70%</span></div>
+        <div class="progress"><div style="width:70%"></div></div>
+      </div>
+
+      <h2 class="badges-title">Outras Competências</h2>
+
+      <div class="badges">
+        <span class="badge">Git</span>
+        <span class="badge">GitHub</span>
+        <span class="badge">SQL</span>
+        <span class="badge">APIs REST</span>
+        <span class="badge">Automação</span>
+        <span class="badge">Versionamento</span>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> Brenda Nicolle Carlos</p>
+    </div>
+  </footer>
+
+<script>
+  document.getElementById('year3').innerText = new Date().getFullYear();
+</script>
+
+</body>
+</html>

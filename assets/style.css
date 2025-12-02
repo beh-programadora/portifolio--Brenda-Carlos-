@@ -90,26 +90,32 @@ body {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+/* Caixa que centraliza */
 .mais-projetos {
-  text-align: center;
-  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
 }
 
+/* Botão estilizado */
 .btn-projetos {
-  display: inline-block;
-  padding: 14px 26px;
+  padding: 14px 28px;
   background: linear-gradient(135deg, #6a4df4, #8a6cff);
   color: #fff;
   font-weight: 600;
   font-size: 1rem;
-  border-radius: 12px;
-  text-decoration: none;
+  border-radius: 14px;
+  text-decoration: none !important;
+  border: none;
+  cursor: pointer;
   transition: 0.3s ease;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.18);
+  display: inline-block;
 }
 
+/* Efeito de hover */
 .btn-projetos:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.22);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
-
